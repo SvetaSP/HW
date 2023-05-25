@@ -70,16 +70,16 @@ else{
 }
 
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int number = int.Parse(Console.ReadLine());
 
-int evenNumber = 2;
+int NumberN = 2;
 
 if(number > 1)
 {
-    while(evenNumber <= number)
+    while(NumberN <= number)
     {
-        Console.Write(evenNumber + " ");
-        evenNumber = evenNumber + 2;
+        Console.Write(NumberN + " ");
+        NumberN = NumberN + 2;
     }
 }
 */
